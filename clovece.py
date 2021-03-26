@@ -164,7 +164,7 @@ for i in range(len(hraci)):
 for i in range(len(hraci)):
     hraci[i].popis = hraci[i].farba + input("\nMeno hráča " + str(i+1) + ": ") + RESET
 
-# vyberie prvého hraca
+# vyberie prvého hráča
 narade = randint(0, len(hraci) - 1)
 
 pokracovat = input("test")
