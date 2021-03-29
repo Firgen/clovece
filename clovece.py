@@ -2,19 +2,19 @@ from random import randint
 from copy import deepcopy
 import os
 
-pole = list("""        O O O O O        
-  O O   O   O   O   O O  
-  O O   O   O   O   O O  
-        O   O   O        
-O O O O O   O   O O O O O
-O                       O
-O O O O O       O O O O O
-O                       O
-O O O O O   O   O O O O O
-        O   O   O        
-  O O   O   O   O   O O  
-  O O   O   O   O   O O  
-        O O O O O        """)
+pole = list("        O O O O O        \n" +\
+"  O O   O   O   O   O O  \n" +\
+"  O O   O   O   O   O O  \n" +\
+"        O   O   O        \n" +\
+"O O O O O   O   O O O O O\n" +\
+"O                       O\n" +\
+"O O O O O       O O O O O\n" +\
+"O                       O\n" +\
+"O O O O O   O   O O O O O\n" +\
+"        O   O   O        \n" +\
+"  O O   O   O   O   O O  \n" +\
+"  O O   O   O   O   O O  \n" +\
+"        O O O O O        ")
 
 # farby
 RESET = "\033[0m"
