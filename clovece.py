@@ -167,8 +167,6 @@ for i in range(len(hraci)):
 # vyberie prvého hráča
 narade = randint(0, len(hraci) - 1)
 
-pokracovat = input("test")
-
 # hra
 namiesta()
 
