@@ -284,9 +284,9 @@ while True:
                                 if f.pozicia == zaciatok[str(narade)]:
                                     pokracovat = input("\nŠtartovacie políčko je obsadené.")
                                     break
-                            else:
-                                continue
-                            break
+                                else:
+                                    continue
+                                break
                         # ak je to figúrka iného hráča
                         else:
                             for f in h.figurky:
