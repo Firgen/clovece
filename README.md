@@ -1,3 +1,4 @@
+# TU JE STARÁ VERZIA
 # HLAVNÝ REPOZITÁR JE NA https://gitlab.com/Firgen/clovece.git 
 
 # človeče nehnevaj sa
